@@ -1,1 +1,14 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+header{
+    @import "./partials/header";
+}
+
+#jumbo{
+    @import "./partials/jumbo";
+}
+
+section.comics{
+    height: 550px;
+    background-color: black;
+}
