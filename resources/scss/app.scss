@@ -9,6 +9,14 @@ header{
 }
 
 section.comics{
-    height: 550px;
+    height: 100%;
     background-color: black;
+
+        div.card{
+            height: 25%;
+
+                h5{
+                    color: white;
+                }
+        }
 }
